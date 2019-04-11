@@ -112,7 +112,7 @@ body{
 
 .imagen_cabecera{
     /* Cambiar ruta para que se vea la imagen. */
-    background-image: url("C:/Users/Front End/Documents/Ubiqum/Html/Web-html/nysl_3/img/banner2.jpg");
+    background-image: url("../img/banner2.jpg");
     background-color: #cccccc;
     background-position: 0 0;
     background-repeat: no-repeat;
