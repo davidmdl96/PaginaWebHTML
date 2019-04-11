@@ -1,0 +1,398 @@
+
+
+/* CSS de la Estructura general ***************************************************************************************************************/
+
+body{
+    background-color: #1f3a27;
+}
+      
+
+.titlePage{
+    font-family: 'Fredericka the Great', cursive;
+    display: inline-block;
+    margin-top: 4%;
+    font-weight: none;
+    color: white;
+}
+
+
+
+.container {
+
+    background-color:#040e11;
+    margin: 0 auto;
+    border: 1px solid #71F34E;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Menu *******************************************************************************************************************************************/
+
+
+.menu{
+    background: #03212a;
+    margin-top: 4%;
+    border: 1px solid #71F34E;
+}
+
+.menu a{
+    margin-left: 6%;
+    margin-right: 2%;
+}
+
+.marcador-button-active{
+    
+    font-family: 'Fredericka the Great', cursive;
+    text-decoration: none;
+    cursor: pointer;
+    color: #71F34E;
+}
+
+/* Menu STYLE ****************************************************************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+.snip1175 {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 4%;
+}
+.snip1175 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1175 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.2em;
+  overflow: hidden;
+}
+.snip1175 a {
+  padding: 0 0.5em 0 0.2em;
+  color: white;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1175 a:before,
+.snip1175 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1175 a:before {
+  right: 100%;
+  display: block;
+  width: 3px;
+  height: 100%;
+  content: "";
+  background-color: #71F34E;
+}
+.snip1175 a:after {
+  padding: 0 0.5em 0 0.2em;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  content: attr(data-hover);
+  color:#71F34E;
+  white-space: nowrap;
+}
+.snip1175 li:hover a,
+.snip1175 .current a {
+  transform: translateX(100%);
+}
+
+/* Header ****************************************************************************************************************************************/
+
+.imagen_cabecera{
+    /* Cambiar ruta para que se vea la imagen. */
+    background-image: url("C:/Users/Front End/Documents/Ubiqum/Html/Web-html/nysl_3/img/banner2.jpg");
+    background-color: #cccccc;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+
+.cabecera{
+    height: 315px;
+}
+
+
+.logo-img {
+    margin: 2%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    -webkit-animation: gira 3s ;
+}
+
+.logo-img:hover{
+    -webkit-animation: zoomLogo 2s;
+    cursor: pointer;
+}
+
+@-webkit-keyframes zoomLogo{
+
+    0%  { -webkit-transform:scale(1.2); }
+
+}
+
+@-webkit-keyframes gira{
+
+    0%  { -webkit-transform:rotateZ( -500deg);}
+    50% { -webkit-transform:rotateZ( 0deg);}
+}
+
+.subtitulo {
+    background:#03212a;
+}
+
+p.subtitulo-text {
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid #71F34E;
+    margin-top: 2px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+/* Estilo del contenido de la pagina home ************************************************************************************************************/
+
+.contenido-home{
+    text-align: center;
+}
+
+.contenido-home p {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/* Estilo del contenido de la pagina about ***********************************************************************************************************/
+
+.contenido-about p {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.contenido-about h2{
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.contenido-about {
+    text-align: left;
+    margin: 5%;
+}
+
+/* Estilo del contenido de la pagina rules ************************************************************************************************************/
+
+.contenido-rules{
+    margin: 5%;
+}
+
+.head-rules, .head-rules h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: inherit;
+
+}
+
+.contenido-rules .contenido-rules p, .contenido-rules li, .contenido-rules h5, 
+.contenido-rules h3, .contenido-rules ul, .contenido-rules ol, .contenido-rules h3, 
+.contenido-rules strong {
+
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: inherit;
+}
+
+.contenido-rules strong {
+    font-style: italic;
+
+}
+
+/* Estilo del contenido de la contact ************************************************************************************************************/
+
+.contenido-contact {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+
+.contenido-contact a{
+    color: #71F34E;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+/* Estilo del contenido de la pagina game ************************************************************************************************************/
+
+ .contenido-game div, .contenido-game p, .contenido-game h3, .contenido-game strong, .contenido-game th {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: inherit;
+} 
+
+.contenido-game strong {
+    font-style: italic;
+
+}
+
+.contenido-game{
+    margin: 5%;
+    margin-left: 10%; 
+    margin-right: 10%;
+    font-family: 'Fredericka the Great', cursive; 
+    font-size:16px;
+}
+
+.tabla1 th{
+    width: 20%;
+}
+
+.tabla2 th{
+    width: 20%;
+}
+
+.fuente-titulo-game{
+ text-decoration: underline;
+ font-weight: inherit;
+ text-align: center;
+}
+
+
+.phone-email{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+} 
+
+
+
+/* Estilo formulario ******************************************************************************************************************************************/
+
+.formulario{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+table{
+    margin-top: 10px;
+}
+
+.fila-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+
+}
+
+.article select{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.article input{
+    flex:1;
+}
+
+.article label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.article2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.estiloSubmit{
+    padding: 5px;
+    width: 100px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.submit-flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div, strong, th {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: inherit;
+}
+
+/* Estilo del contenido de la pagina location ********************************************************************************************************/
+
+.mapas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+ .mapa1, .mapa2, .mapa3 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .mapa4,.mapa5,.mapa6 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mapas .direccion{
+    font-size: 12px;
+
+}
+
+iframe:hover{
+    -webkit-animation: zoom 2s; 
+}
+
+@-webkit-keyframes zoom{
+
+    0%  { -webkit-transform:scale(1.1); }
+
+}
+
+.mapas p {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+

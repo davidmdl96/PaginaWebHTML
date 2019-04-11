@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration NYSL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+        <link rel="icon" href="img/logo.png">
+    
+    </head>
+    <body>          
+        <div class="container">
+
+            <div alt="head">
+                <a href="index.html"><img src="img/logo.png" alt="Logo de la pagina" class="logo-img"></a>
+                <h1 class="titlePage">NORTHSIDE YOUTH SOCCER LEAGUE</h1>
+            </div>            
+            <div class="menu">      
+                    <ul class="snip1175">
+                            <li ><a href="index.html" data-hover="Home">Home</a></li>
+                            <li><a href="about.html" data-hover="About NYSL">About NYSL</a></li>
+                            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                            <li><a href="rules.html" data-hover="Rules">Rules</a></li>
+                            <li><a href="game.html" data-hover="Game">Game</a></li>
+                            <li class="current"><a href="registration.html" data-hover="Registration">Registration</a></li>
+                            <li><a href="location.html" data-hover="Location">Location</a></li>
+                    </ul>
+            </div>  
+            <div class="imagen_cabecera">      
+                <div class="cabecera">
+                </div>
+            </div>    
+            <div class="subtitulo">
+                <p class="subtitulo-text">Registration Form</p>
+            
+            </div>
+                
+
+            <div class="formulario">
+                <form method="get" action="show_data.html">
+        
+                    <div class="fila-flex">
+
+                        <div class="article">
+                            <label>Name: </label> 
+                            <input type="text" name="First-name" required="required">
+                        </div>
+
+                        <div class="article">
+                            <label>Last Name: </label>
+                            <input type="text" name="Last-name" required="required">
+                        </div>
+
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="fila-flex"> 
+                        <div class="article">          
+                            <label>Street Address: </label>
+                            <input type="text" name="adress" required="required">
+                            </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="fila-flex">
+                        <div class="article">
+                        <label>City:</label>
+                        <input type="text" name="city" required="required">
+                        </div>
+
+                        <div class="article">
+                        <label>Zip Code:</label>
+                        <input type="text" name="zip-code" required="required">
+                        </div>
+                    </div>
+                    
+                    <br>
+
+                    <div class="fila-flex">
+                        <div class="article">
+                            <label>Birth Date (dd/mm/yyyy):</label>
+                            <input type="date" name="birth date" required="required">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="fila-flex">
+                    <div class="article2">
+                    <label>Gender:</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="gender" value="Female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="Male">
+                    <label>Male</label>
+                    </div>
+                    </div>
+                    
+                    <br>
+
+                    <div class="fila-flex">
+                    <div class="article2">
+                    <label>Grade:</label>
+                    </div>
+                    <div>
+                    <input class="rank" type="radio" name="grade" value="Preschool">
+                    <label>Pre-School</label>
+                    <input class="rank" type="radio" name="grade" value="first"> 
+                    <label>1</label><sup>st</sup>
+                    <input class="rank" type="radio" name="grade" value="second"> 
+                    <label>2</label><sup>nd</sup>
+                    <input class="rank" type="radio" name="grade" value="third"> 
+                    <label>3</label><sup>rd</sup>
+                    <input class="rank" type="radio" name="grade" value="fourth">
+                    <label>4</label> <sup>th</sup>
+                    <input class="rank" type="radio" name="grade" value="fifth"> 
+                    <label>5</label><sup>th</sup> 
+                    </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="fila-flex">
+                    <div class="article"> 
+                        <label>Parent/Guardian:</label>                      
+                        <input type="text" name="parent" required="required">
+                    </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="fila-flex">
+                        <div class="article">
+                            <label>Contact Phone:</label>
+                            <input type="tel" name="phone" required="required">
+                        </div>
+                        <div class="article">
+                            <label>Contact Email:</label>
+                            <input type="email" name="email" required="required">
+                        </div>
+                    </div>
+                    
+                    <hr>
+
+                    <div class="fila-flex">
+                    <div class="article2">
+                    <p><strong>Which elementary schools do you live near?</strong></p>
+                    </div>
+                    </div>
+
+                    <div alt="listasSchool" class="fila-flex">
+
+                    <div alt="primeraListaSchool" class="article">
+                    <label>First Closest School:</label>
+                    <select name="Opcion1School">
+                        <option value="" selected="" disabled="">Please select a school</option>
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value=" South Elementary">South Elementary</option>
+                    </select>
+                    </div>
+                    
+
+                    <div alt="segundaListaSchool" class="article">
+                    <label>Second Closest School:</label>
+                    <select name="Opcion2School">
+                        <option value="" selected="" disabled="">Please select a school</option>
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value=" South Elementary">South Elementary</option>
+                    </select>
+                    </div>
+                    </div>
+                    
+                    <br>
+
+                    <div>
+                    <div>
+                    <p><strong>What position(s) do you normally play?</strong> (check all that apply)</p>
+                    </div>
+                    <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td>
+                               <input type="checkbox">
+                               <label>Forward </label> 
+                            </td>
+                            <td>
+                               <input type="checkbox">
+                               <label>Midfield</label>
+                               </td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <input type="checkbox">
+                                <label>Defense </label>
+                                
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <label>Goalkeeper </label>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+
+                    <br>
+                    <div>
+                    <div>
+                    <p><strong>What position(s) do you want to play?</strong> (check all that apply)</p>
+                    </div>
+                    <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                            <td>
+                               <input type="checkbox">
+                               <label>Forward </label> 
+                            </td>
+                            <td>
+                               <input type="checkbox">
+                               <label>Midfield</label>
+                               </td>
+                            </tr>
+                            <tr>
+                            <td>
+                                <input type="checkbox">
+                                <label>Defense </label>
+                                
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                                <label>Goalkeeper </label>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+
+                    <br>
+                    
+                    <div>
+                    <p><input type="checkbox"><strong>Already Have a Uniform</strong></p>
+                    </div>
+
+                    <div alt="escoger tallas" class="fila-flex">
+                    
+                    <div>
+
+                    <table alt="Jersey">
+                        <tbody>
+                            <tr>
+                             <th><strong>Jersey Size:</strong></th>
+                             <th></th>
+                            </tr>
+                        <tr>
+                           <td>
+                               <input type="radio" name="Jersey size" value="Youth Small">
+                               <span>Youth Small</span>
+                            </td>
+                            <td>
+                                <input type="radio" name="Jersey size" value="Medium">
+                                <span>Medium</span>
+                            </td>
+                        </tr>
+                        <tr>
+                           <td>
+                               <input type="radio" name="Jersey size" value="Youth Medium">
+                               <span>Youth Medium</span>
+                            </td>
+                            <td>
+                                <input type="radio" name="Jersey size" value="Large">
+                                <span>Large</span>                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               <input type="radio" name="Jersey size" value="Youth Large">
+                               <span>Youth Large</span>
+                            </td>
+                            <td>
+                               <input type="radio" name="Jersey size" value="Extra-Large">
+                               <span>Extra-Large</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="Jersey size" value="Small">
+                                <span>Small</span>
+                            </td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    </div>
+
+                    <div>
+
+                    <table alt="short">
+                            <tbody>
+                                <tr>
+                                 <th><strong>Short Size:</strong></th>
+                                 <th></th>
+                                </tr>
+                            <tr>
+                               <td>
+                                   <input type="radio" name="Short size" value="Youth Small">
+                                   <span>Youth Small</span>
+                                </td>
+                                <td>
+                                    <input type="radio" name="Short size" value="Medium">
+                                    <span>Medium</span>
+                                </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                   <input type="radio" name="Short size" value="Youth Medium">
+                                   <span>Youth Medium</span>
+                                </td>
+                                <td>
+                                    <input type="radio" name="Short size" value="Large">
+                                    <span>Large</span>                                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <input type="radio" name="Short size" value="Youth Large">
+                                   <span>Youth Large</span>
+                                </td>
+                                <td>
+                                   <input type="radio" name="Short size" value="Extra-Large">
+                                   <span>Extra-Large</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="Short size" value="Small">
+                                    <span>Small</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    </div>       
+                    
+                    <hr>
+                    <div>
+                    <div>
+                    <p alt="permisos"><strong>Permission to Play</strong></p>
+                    </div>
+                    <div>
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                        Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                        accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                        on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                        sponsored activities, which transportation.
+                    </p>
+                    <p>
+                        By signing below, I hereby agree and authorize the above. In addition, By entering your name below, you also acknowledge that YOU have read the
+                        cancellation policy and agree to its terms. 
+                    </p> 
+                    </div>      
+
+                    <div alt="firma" class="fila-flex">
+                        <div class="article">
+                            <label>Parent/Guardian Signature:</label>
+                            <input type="text" name="signature" required="required">
+                        </div>
+                        <div class="article">
+                            <label>Date:</label>
+                            <input type="date" name="date" required="required">
+                        </div>
+                    </div>
+                        <hr>
+                    <div class="submit-flex">
+                        
+                        <input type="submit" value="Submit" id="submit" class="estiloSubmit">
+                    
+                    </div>
+                    </div>
+                    
+                    </form>
+                    
+                   </div>
+    </div>  
+</body>
+</html>
+
+
